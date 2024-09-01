@@ -10,16 +10,19 @@
 
 ## Project Scope
 
-- **Image-to-Image Translation**: Convert real images into cartoon-style images.
+- **Image-to-Cartoon Image Translation**: Convert real images into cartoon-style images.
 - **3D Model Creation**: Transform 2D cartoon images into 3D stickers.
 - **Prompt Engineering**: Allow users to generate stickers based on thematic prompts.
 
 ## Technology Stack
 
-- **Programming Language**: Python
+- **Programming Language**: Python  3.6
 - **Deep Learning Frameworks**:
-  - PyTorch (Primary)
-  - TensorFlow (Alternative)
+  - PyTorch  1.4 
+  - TensorFlow-gpu 1.14
+  - face-alignment
+  - dlib
+  - onnxruntime
 - **Pre-trained Models**:
   - GPT: For generating prompt embeddings (via Hugging Face Transformers).
   - ResNet: For feature extraction from images (via Torchvision).
