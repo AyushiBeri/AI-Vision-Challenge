@@ -1,17 +1,15 @@
 # AI-Vision-Challenge
 # Project-Overview
  # Objective
-# <h3>Develop a system that converts real images into 3D cartoon stickers using thematic prompts for customization.
-#   project aims to develop a system that transforms real images into 3D cartoon stickers using thematic prompts for customization. This tool is designed for digital artists, creatives, and social media users who 
-  want to enhance their online presence with unique, customizable stickers.</h3>
-Technology Stack
-Programming Language: Python
-Deep Learning Frameworks: PyTorch or TensorFlow
+# <h3>Develop a system that converts real images into 3D cartoon stickers using thematic prompts for customization. project aims to develop a system that transforms real images into 3D cartoon stickers using thematic prompts for customization. This tool is designed for digital artists, creatives, and social media users who want to enhance their online presence with unique, customizable stickers.</h3>
+# Technology Stack
+# <h3>Programming Language: Python <n>Deep Learning Frameworks: PyTorch or TensorFlow
 Image Processing: OpenCV
 3D Software: Blender
 Pre-trained Models: Hugging Face Transformers (for prompt embeddings), Torchvision or Keras Applications (for feature extraction)
 GPU Acceleration: CUDA (optional)
-Step 1: Project Scope
+
+# Step 1: Project Scope
 Objective: Develop a system for converting real images into 3D cartoon stickers.
 Target Audience: Digital artists and social media users.
 Step 2: Data Collection
